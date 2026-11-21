@@ -26,8 +26,8 @@ const settings = definePluginSettings({
     },
     customAvatar: {
         type: OptionType.STRING,
-        description: "Custom avatar image URL or Base64 data URL (leave blank for Discord default avatar).",
         default: "",
+        hidden: true,
         onChange: updateStyles,
     },
     setAvatar: {
