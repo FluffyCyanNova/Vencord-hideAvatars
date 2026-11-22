@@ -38,9 +38,14 @@ Copy the `hideAvatars` directory into your Vencord `src/userplugins/` folder and
 3. Click the ⚙️ gear icon to open settings:
    - Click **Add User** to add a row per user. Each row has:
      - **User ID** (e.g. `123456789012345678`).
-     - An image URL, **OR** **Choose Local Image...** to pick any image from your PC.
-     - **Use Discord Default** to return that user to their default avatar (an empty image also does this).
+     - **Profile picture:** *Keep original*, *Discord default*, or *Custom image* (an image URL, or a file from your PC).
+     - **Banner:** *Keep original*, *Hide banner*, or *Custom image* (an image URL, or a file from your PC).
+     - Live previews show the result (or the user's real picture/banner when kept).
      - **Remove User** to delete the row.
+
+   Avatar and banner are independent, so you can hide just the banner without touching the profile picture.
+
+> **Quick access:** right-click any user and choose **Hide/Replace Avatar...** to edit that user's avatar and banner in a popup, without opening plugin settings.
 
 > **Tip:** To copy a Discord User ID, turn on **Developer Mode** (*Settings → Advanced → Developer Mode*), then right-click any user and select **Copy User ID**.
 
